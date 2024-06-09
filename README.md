@@ -6,10 +6,14 @@ This repository contains a simple Python program that performs basic arithmetic 
 
 ##Features
 ------------------------
---Addition: Adds two numbers.
---Subtraction: Subtracts the second number from the first number. If the result is negative, a warning message is displayed
---Division: Divides the first number by the second number. If the second number is zero, a warning message is displayed to prevent division by zero.
---Multiplication: Multiplies two numbers.
+Addition: Adds two numbers.
+----------------------
+Subtraction: Subtracts the second number from the first number. If the result is negative, a warning message is displayed
+----------------------
+Division: Divides the first number by the second number. If the second number is zero, a warning message is displayed to prevent division by zero.
+----------------------
+Multiplication: Multiplies two numbers.
+----------------------
 
 ##Functions
 --'add(y, z)': Returns the sum of y and z.
