@@ -61,38 +61,25 @@ Division: If the second number is zero, the program prints a warning message: "0
 Code
 ---------------------------------------------
 def add(y, z):
-
-    x = y + z
-    
+ x = y + z
     return x
 
 def substraction(y, z):
-
-    x = y - z
-    
+ x = y - z
     if x < 0:
-    
-        print('please be sure first input is greater than second')
-        
-    return x
+     print('please be sure first input is greater than second')
+         return x
 
 def devision(y, z):
-
-    if z != 0:
-    
-        x = y / z
-        
+if z != 0:
+     x = y / z
         return x
-        
-    else:
-    
-        print('0 input is unacceptable for second input')
+        else:
+    print('0 input is unacceptable for second input')
 
 def multiplication(y, z):
-
-    x = y * z
-    
-    return x
+x = y * z
+     return x
 
 in_opr = input('please input operation (+,-,/,*) : ')
 
@@ -103,32 +90,19 @@ in_num1 = int(input('please input number1: '))
 in_num2 = int(input('please input number2: '))
 
 if in_opr == "+":
-
-    out_add = add(in_num1, in_num2)
-    
+out_add = add(in_num1, in_num2)
     print('your add result is:', out_add)
-    
-elif in_opr == "-":
-
-    out_sub = substraction(in_num1, in_num2)
-    
+    elif in_opr == "-":
+ out_sub = substraction(in_num1, in_num2)
     print('your sub result is:', out_sub)
-    
-elif in_opr == "/":
-
-    out_dev = devision(in_num1, in_num2)
-    
-    print('your dev result is:', out_dev)
-    
+    elif in_opr == "/":
+out_dev = devision(in_num1, in_num2)
+     print('your dev result is:', out_dev)
 elif in_opr == "*":
-
     out_mult = multiplication(in_num1, in_num2)
-    
-    print('your mult result is:', out_mult)
-    
-else:
-
-    print('please input the right operation')
+       print('your mult result is:', out_mult)
+    else:
+print('please input the right operation')
     
 Notes
 ---------------------------------------------
