@@ -14,13 +14,13 @@ Multiplication: Multiplies two numbers.
 
 Functions
 ---------------------------------------------
-add(y, z): Returns the sum of y and z.
+'add(y, z)': Returns the sum of y and z.
 
-substraction(y, z): Returns the difference between y and z. Displays a warning if the result is negative.
+'substraction(y, z)': Returns the difference between y and z. Displays a warning if the result is negative.
 
-devision(y, z): Returns the division of y by z. Displays a warning if z is zero.
+'devision(y, z)': Returns the division of y by z. Displays a warning if z is zero.
 
-multiplication(y, z): Returns the product of y and z.
+'multiplication'(y, z): Returns the product of y and z.
 
 Usage
 ---------------------------------------------
