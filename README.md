@@ -1,6 +1,7 @@
 Basic Calculator Program
-This repository contains a simple Python program that performs basic arithmetic operations: addition, subtraction, multiplication, and division. The user is prompted to input an operation and two numbers, and the program outputs the result of the specified operation.
 ---------------------------------------------
+This repository contains a simple Python program that performs basic arithmetic operations: addition, subtraction, multiplication, and division. The user is prompted to input an operation and two numbers, and the program outputs the result of the specified operation.
+
 Features
 
 Addition: Adds two numbers.
